@@ -1,0 +1,27 @@
+#! /bin/bash
+#
+# Sets up a new ubuntu machine with my dev tools
+#
+
+# Stow for config files.
+sudo apt-get install stow
+
+# Note, these are appropriate for Ubuntu 12.04, there may be something 
+# more appropriate for newer releases for Ubuntu
+
+# tmux:
+
+sudo add-apt-repository ppa:pi-rho/dev
+sudo apt-get update
+sudo apt-get install tmux
+
+# Emacs 24.3
+
+sudo add-apt-repository ppa:cassou/emacs
+sudo apt-get update
+sudo apt-get install emacs24 emacs24-el emacs24-common-non-dfsg
+
+stow utils
+stow emacs
+stow tmux
+

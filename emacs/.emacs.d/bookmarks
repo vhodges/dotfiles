@@ -1,0 +1,10 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("create"
+ (filename . "~/work/clients/ttc/talemetry_job/app/controllers/job_lists_controller.rb")
+ (front-context-string . "      unless v.e")
+ (rear-context-string . " || []).compact\n")
+ (position . 8840))
+)

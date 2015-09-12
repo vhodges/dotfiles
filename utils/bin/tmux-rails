@@ -1,0 +1,4 @@
+#!/bin/bash
+source ~/bin/_funcs.sh
+SESSIONAME=`railsdev $1`
+tmux attach -t ${SESSIONAME}

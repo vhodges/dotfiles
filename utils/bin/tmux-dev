@@ -1,0 +1,4 @@
+#!/bin/bash
+source ~/bin/_funcs.sh
+SESSIONAME=`basicdev $1`
+tmux attach -t ${SESSIONAME}

@@ -1,0 +1,86 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/vhodges/" . ".emacs.d/")
+ ("/mnt/talemetry_go/src/activitystream/constants/" . "topics/")
+ ("/mnt/talemetry_go/src/activitystream/" . "constants/")
+ ("/mnt/talemetry_go/src/" . "joblistmembershipupdater/")
+ ("/mnt/talemetry_go/" . "src/")
+ ("/mnt/" . "talemetry_go/")
+ ("/" . "mnt/")
+ ("/Users/vhodges/.emacs.d/" . "lisp/")
+ ("/Users/vhodges/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/vhodges/dotfiles/"
+ "/home/vhodges/.emacs.d/"
+ "/home/vhodges/dotfiles/emacs/.emacs.d/"
+ "/Users/vhodges/.emacs.d/"
+ "/mnt/talemetry_go/src/joblistmembershipupdater/"
+ "/mnt/talemetry_go/"
+ "/Users/vhodges/.tmuxinator/"
+ "/mnt/talemetry_go/src/activitystream/constants/topics/"
+ "/mnt/"
+ "/Users/vhodges/"
+ "/Users/vhodges/.emacs.d/lisp/"
+ "/Users/vhodges/Desktop/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "README.md"
+ "init.el"
+ "ac-comphist.dat"
+ "consumer.go"
+ "persistence.go"
+ "start-dev-jlmu"
+ "notification_coalesce.md"
+ "golang.yml"
+ "const.go"
+ "Makefile"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/vhodges/dotfiles/" (21970 18230 615488 81000) "../" "emacs/" "utils/" "tmux/" "README.md" ".git/" "./" "setup-ubuntu-dev")
+
+ ("/home/vhodges/.emacs.d/" (21970 19876 868857 50000) "../" "elpa/" "ido.last" "ac-dict/" "lisp/" "auto-save-list/" "el-get/" ".#ido.last" "bookmarks" "./" "ac-comphist.dat" "init.el")
+
+ ("/home/vhodges/dotfiles/emacs/.emacs.d/" (21970 19812 692188 997000) "../" "elpa/" "ido.last" "ac-dict/" "lisp/" "auto-save-list/" "el-get/" "bookmarks" "./" "ac-comphist.dat" "init.el")
+
+ ("/home/vhodges/" (21970 18268 985488 931000) ".bash_profile" "../" ".bashrc" ".ssh/" "dotfiles/" ".emacs.d/" ".tmux.conf" ".bash_history" "./" ".bash_logout" "bin/")
+
+ ("/Users/vhodges/Desktop/" (21781 34077 0 0) ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/vhodges/.emacs.d/lisp/" (21781 38492 0 0) "zenburn-theme.el" "tomorrow-night-theme.el" "tomorrow-night-eighties-theme.el" "tomorrow-night-bright-theme.el" "popup.elc" "popup.el" "go-autocomplete.el" "fuzzy.elc" "fuzzy.el" "auto-complete.elc" "auto-complete.el" "auto-complete-config.elc" "auto-complete-config.el" "../" "./")
+
+ ("/mnt/talemetry_go/src/activitystream/constants/topics/" (21806 38384 0 0) "const.go" "../" "./")
+
+ ("/Users/vhodges/.tmuxinator/" (21794 56619 0 0) "vagrant.yml" "jobs.yml" "haproxy.yml" "golang.yml" "gateway.yml" "ec2tools.yml" "core.yml" "commonlib.yml" "cas.yml" "careersites.yml" "../" "./")
+
+ ("/Users/vhodges/.emacs.d/" (21806 39328 0 0) "lisp/" "init.el" "ido.last" "elpa/" "el-get/" "bookmarks" "auto-save-list/" "ac-dict/" "ac-comphist.dat" "../" "./")
+
+ ("/mnt/talemetry_go/src/joblistmembershipupdater/" (21806 39360 0 0) "subscriber_notifier.go" "removed_jobs_notifier.go" "persistence.go" "kafka_jobsource.go" "jobsources.go" "job_job_list_pair.go" "consumer.go" "../" "./")
+
+ ("/Users/vhodges/" (21805 39734 0 0) "VirtualBox VMs/" "Public/" "Pictures/" "notes" "Music/" "Movies/" "Library/" "gopath/" "Downloads/" "Documents/" "Desktop/" "Applications/" ".viminfo" ".vagrant.d/" ".Trash/" ".tmuxinator/" ".tmux.conf" ".ssh/" ".gitconfig" ".emacs.d/" ".DS_Store" ".config/" ".CFUserTextEncoding" ".bash_history" ".anyconnect" ".account" "../" "./")
+
+ ("/mnt/" (21805 33197 0 0) "talemetry_warehouse/" "talemetry_tracking/" "talemetry_scheduling/" "talemetry_primeshare_18/" "talemetry_match_solr/" "talemetry_match_scraper/" "talemetry_match_monitor/" "talemetry_match_job_runner/" "talemetry_match_indexer/" "talemetry_match_ec2_tools/" "talemetry_match_api/" "talemetry_match/" "talemetry_kafka/" "talemetry_job.org/" "talemetry_job/" "talemetry_haproxy/" "talemetry_go_deployment/" "talemetry_go/" "talemetry_core/" "talemetry_common_lib/" "talemetry_cas/" "talemetry_careersites_solr/" "talemetry_careersites_facebook/" "talemetry_careersites/" "talemetry_campaign/" "talemetry_assets/" "talemetry_apply/" "talemetry_api_gateway/" "talemetry_activity_indexer/" "solr_data.tgz" "solr_data.tar.enc" "solr_data/" "s3/" "InstallNotes.txt" "filelist.txt" "devops_tools/" "development_s3.tar.gz" "crontab_logs/" "authorized_keys" ".#filelist.txt" "../" "./")
+
+ ("/mnt/talemetry_go/src/" (21806 38384 0 0) "joblistmembershipupdater/" "Goopfile.lock" "Goopfile" "dbgflags/" "datamodel/" "cmd/" "activitystream/" "../" "./")
+
+ ("/mnt/talemetry_go/" (21806 38384 0 0) "tools/" "start-dev-jlmu" "src/" "README.md" "pkg/" "Makefile" "bin/" "1238filters.txt" ".gitignore" ".git/" "../" "./")
+
+ ("/mnt/talemetry_go/src/activitystream/constants/" (21780 15600 0 0) "verbs/" "topics/" "actors/" "../" "./")
+
+ ("/mnt/talemetry_go/src/activitystream/" (21780 15600 0 0) "producer.go" "constants/" "../" "./")
+
+ ("/vagrant/" (21781 38693 0 0) "Vagrantfile" "talemetry_vagrant/" "provision_setup_user.sh" "provision_config.sh" "provision.sh" "preprovision.sh" "gitsshkeys/" "box/" "ajb_20141005_6808-edit.jpg" "_bakfiles/" ".DS_Store" "../" "./")
+
+ ("/vagrant/talemetry_vagrant/" (21781 46001 0 0) "server/" "README.md" "localosx/" "_includes/" "_data/" "_config.sh" "_config/" ".gitignore" ".git/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
