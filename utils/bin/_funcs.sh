@@ -26,7 +26,7 @@ function railsdev() {
         
         # Logs (2)
         tmux new-window -n logs -t ${SESSION_NAME}
-        tmux send-keys -t ${SESSION_NAME}:3 'tail -f log/development.log' C-m
+        #tmux send-keys -t ${SESSION_NAME}:3 'tail -f log/development.log' C-m
         
         # rails console (3)
         tmux new-window -n console -t ${SESSION_NAME}
