@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/vhodges/work/" . "src/")
  ("/home/vhodges/work/src/dovetail/dovetailv2/app/assets/" . "stylesheets/")
  ("/home/vhodges/work/src/dovetail/dovetailv2/config/" . "unicorn/")
  ("/home/vhodges/work/src/cashbook-toolkit/keepsafe/app/views/" . "about/")
@@ -26,7 +27,7 @@
  ("/home/vhodges/work/src/dovetail/dovetailv2/app/views/" . "member_portal/")
  ("/home/vhodges/work/src/dovetail/dovetailv2/app/" . "views/")
  ("/home/vhodges/work/src/dovetail/dovetailv2/" . "app/")
- ("/home/vhodges/" . "dotfiles/")
+ ("/home/vhodges/" . ".config/")
  ("/mnt/talemetry_go/src/activitystream/constants/" . "topics/")
  ("/mnt/talemetry_go/src/activitystream/" . "constants/")
  ("/mnt/talemetry_go/src/" . "joblistmembershipupdater/")
@@ -39,6 +40,7 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/vhodges/"
  "/home/vhodges/work/src/cashbook-toolkit/cashbook-core/src/cashbook/"
  "/home/vhodges/work/src/dovetail/dovetailv2/app/views/member_portal/"
  "/home/vhodges/work/src/dovetail/dovetailv2/app/controllers/"
@@ -83,6 +85,8 @@
 
 ;; ----- ido-work-file-list -----
 (
+ ".xinitrc"
+ "main.go"
  "database.go"
  "classification.go"
  "category.go"
@@ -91,12 +95,42 @@
  "active_admin.css.scss"
  "portal.html.haml"
  "activities_controller.rb"
- "routes.rb"
- "invites_controller.rb"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/vhodges/dotfiles/emacs/.emacs.d/" (22535 63789 148134 175000) "../" "elpa/" "ido.last" "ac-dict/" "lisp/" "el-get/" "bookmarks" "./" "ac-comphist.dat" "init.el")
+
+ ("/home/vhodges/.emacs.d/" (22535 63789 148134 175000) "../" "elpa/" "ido.last" "ac-dict/" "lisp/" "auto-save-list" "el-get/" ".#ido.last" "bookmarks" "./" "ac-comphist.dat" "init.el")
+
+ ("/home/vhodges/work/src/dovetail/dovetailv2/db/" (22526 60138 942741 332000) "../" "migrate/" "seeds.rb" "schema.rb" "./")
+
+ ("/home/vhodges/work/src/dovetail/dovetailv2/app/models/" (22526 60138 942741 332000) "../" "concerns/" "mailchimp_integration.rb" "member.rb" "space.rb" "invoicing_tax_rate.rb" "user_space.rb" "payment_method.rb" "invoicing_ledger_item.rb" "meetingroom.rb" ".keep" "resource.rb" "location.rb" "plan.rb" "stripe_integration.rb" "member_credit_note.rb" "integration.rb" "payment.rb" "member_identity.rb" "booking.rb" "member_payment.rb" "credit_note.rb" "invoice.rb" "./" "member_invoice.rb" "plan_resource.rb" "invite.rb" "user.rb" "admin_user.rb" "invoicing_line_item.rb")
+
+ ("/home/vhodges/work/src/dovetail/dovetailv2/app/views/members/" (22526 60138 942741 332000) "edit.html.erb" "../" "show.html.erb" "new.html.erb" "_invoice.html.haml" "show.json.jbuilder" "_payment.html.haml" "_form.html.haml" "index.html.erb" "index.json.jbuilder" "./" "_credit.html.haml")
+
+ ("/home/vhodges/work/src/dovetail/dovetailv2/app/helpers/" (22526 60138 942741 332000) "meetingrooms_helper.rb" "../" "payment_methods_helper.rb" "resources_helper.rb" "dummy_helper.rb" "bookings_helper.rb" "application_helper.rb" "locations_helper.rb" "plans_helper.rb" "./" "spaces_helper.rb" "members_helper.rb")
+
+ ("/home/vhodges/work/src/dovetail/dovetailv2/app/views/shared/" (22527 49925 677908 653000) "_members.html.haml" "../" "_user_account.html.haml" "_settings.html.haml" "_main_nav.html.haml" "_member_nav.html.haml" "_stripe_js.html.erb" "./" "_need_payment_method.html.erb" "_transaction_history.html.erb")
+
+ ("/home/vhodges/dotfiles/tmux/" (22532 8349 498773 758000) "../" ".tmux.conf" "./")
+
+ ("/home/vhodges/work/src/dovetail/dovetailv2/config/" (22521 15371 56168 708000) "../" "unicorn/" "locales/" "boot.rb" "database-sample.yml" "routes.rb" "deploy/" "unicorn.rb" "deploy.rb" "application-sample.yml" "environment.rb" "database.yml-vince" "application.rb" "./" "initializers/" "application.yml" "database.yml" "secrets.yml" "environments/")
+
+ ("/home/vhodges/work/src/cashbook-toolkit/cashbook-core/src/cashbook/" (22535 63593 981468 426000) "../" "category.go" "matcher.go" "txn_group.go" "receiver.go" "report.go" "system_txn_group_classification.go" "classification.go" "usage.go" "main.go" "migratedown.go" "cmd.go" "migrateredo.go" "migratestatus.go" "database.go" "import.go" "txn.go" "./" "persistence.go" "pingreceiver.go" "migrateup.go" "reportingapi.go" "help.go" "system_txn_group.go" "sender.go")
+
+ ("/home/vhodges/.config/" (22535 64201 338132 255000) "pulse/" "nautilus/" "../" "Trolltech.conf" "dconf/" "gconf/" "user-dirs.locale" "gnome-session/" "goa-1.0/" "user-dirs.dirs" "gnome-control-center/" "menus/" "./" "enchant/" "tint2/" "epiphany/" "chromium/" "i3/" "gtk-3.0/")
+
+ ("/home/vhodges/" (22535 64201 434798 921000) ".bash_profile" "../" "archive/" ".bashrc" ".DS_Store" ".gnupg/" ".pki/" ".gnome/" ".xinitrc" ".ssh/" ".Xresources" ".jnewsrc~" ".gitconfig" ".irssi/" ".lesshst" ".jnewsrc" "dotfiles/" ".ICEauthority" ".local/" "ez-ipupdate-3.0.11b7/" ".psql_history" ".e/" "._zenburn-theme.el" ".config/" ".emacs.d/" ".tmux.conf" ".bash_history" ".dbus/" "membertrak.logo.png" ".esd_auth" ".xsession-errors.old" "./" ".bundle/" "._.DS_Store" ".rbenv/" ".jnewsrc.time" ".elementary/" ".bash_logout" ".dmrc" ".xsession-errors" ".cache/" "bin/" ".angband/" ".crawl/" ".Xauthority" ".ruby-version" "work/" ".gem/")
+
+ ("/home/vhodges/work/src/dovetail/dovetailv2/" (22529 18623 645204 691000) "README_VAGRANT.md" "../" "promo.rb" "Gemfile.lock" "public/" "LICENSE" "Rakefile" "Capfile" "TODO.txt" "config.ru" "scheduled_tasks.rb" "ssl/" "db/" "app/" "test/" "20150908033634_add_que.rb" "lib/" ".gitignore" "README.md" "form.html" "mailcatcher.sh" "Vagrantfile" "tmp/" "Gemfile" ".git/" "CONTRIBUTING.md" "bootswatch-dovetail.less" "config/" "update.sh" "./" "Procfile" "setup.sh" "log/" "vendor/" "designlibrary/" "bin/" "tst.txt" "mailcatcher.conf" ".ruby-version")
+
+ ("/home/vhodges/work/" (22230 15111 901080 825000) "../" ".DS_Store" "documents/" "src/" "./" "._.DS_Store")
+
+ ("/home/vhodges/work/src/dovetail/dovetailv2/app/controllers/" (22533 27038 37263 178000) "../" "portal_application_controller.rb" "concerns/" "member_bookings_controller.rb" "integrations_controller.rb" "admins_controller.rb" "members_controller.rb" "member_portal_controller.rb" "application_controller.rb" "credit_notes_controller.rb" "sessions_controller.rb" "insights_controller.rb" "integrations/" "invites_controller.rb" "payments_controller.rb" "bookings_controller.rb" "spaces_controller.rb" "member_rooms_controller.rb" "./" "locations_controller.rb" "registrations_controller.rb" "activities_controller.rb" "invoices_controller.rb" "meetingrooms_controller.rb" "payment_methods_controller.rb" "resources_controller.rb" "plans_controller.rb")
+
+ ("/home/vhodges/work/src/dovetail/dovetailv2/app/views/member_portal/" (22519 47051 455529 184000) "../" "_invoice.html.haml" "_payment.html.haml" "_signup.html.haml" "_stripe_js.html.erb" "./" "details.html.haml" "credit_card.html.haml" "_signin.html.haml" "_credit.html.haml" "account.html.haml" "_transaction_history.html.erb")
+
  ("/home/vhodges/work/src/" (22230 15128 701081 160000) "../" "democitycu/" "8583Auth/" "tblpk/" ".DS_Store" "ticketmaker/" "febrewaryspiel/" "mlcuboard/" "pennyminder.github.io/" "pennyminder-com-src/" "dovetail/" "recipes/" "other/" "slides/" "treadmill/" "cashbook/" "game.awk" "dearbirthmom/" "imbas.ca/" "drivethru/" "mkinvoice/" "sourdoughlabs/" "./" "._.DS_Store" "dbg/" "resume/" "letsencrypt/" "cashbook-toolkit/" "updatebroker/" "ofx-parser/" "mtlehman/" "rhythms/" "projectbook.txt" "art/" "sourdoughlabs.github.com/" "bootswatch/" "chequewriter/" "rover/")
 
  ("/home/vhodges/work/src/dovetail/" (21977 56189 114903 432000) "dovetailv2/" "gotest/" "../" "detail-wrap/" ".DS_Store" "dovetailapp/" "media/" "marketing/" "STAR_dovetail_io/" "neon-bootstrap-admin-theme/" "Flat-UI-Pro-1.2/" "./")
@@ -105,49 +139,21 @@
 
  ("/home/vhodges/work/src/dovetail/dovetailv2/app/assets/" (21977 56141 348235 733000) "stylesheets/" "../" "javascripts/" "images/" "./")
 
- ("/home/vhodges/work/src/dovetail/dovetailv2/app/views/member_portal/" (22518 42479 107429 168000) "../" "_invoice.html.haml" "_payment.html.haml" "_signup.html.haml" "_stripe_js.html.erb" "./" "details.html.haml" "credit_card.html.haml" "_signin.html.haml" "_credit.html.haml" "account.html.haml" "_transaction_history.html.erb")
-
- ("/home/vhodges/work/src/dovetail/dovetailv2/app/controllers/" (22519 45186 88912 968000) "../" "portal_application_controller.rb" "concerns/" "member_bookings_controller.rb" "integrations_controller.rb" "admins_controller.rb" "members_controller.rb" "member_portal_controller.rb" "application_controller.rb" "credit_notes_controller.rb" "sessions_controller.rb" "insights_controller.rb" "integrations/" "invites_controller.rb" "payments_controller.rb" "bookings_controller.rb" "spaces_controller.rb" "member_rooms_controller.rb" "./" "locations_controller.rb" "registrations_controller.rb" "activities_controller.rb" "invoices_controller.rb" "meetingrooms_controller.rb" "payment_methods_controller.rb" "resources_controller.rb" "plans_controller.rb")
-
  ("/home/vhodges/work/src/dovetail/dovetailv2/app/views/" (22238 61057 703421 515000) "resources/" "../" "member_portal/" "insights/" "admins/" "spaces/" "payment_mailer/" "layouts/" "payments/" "meetingrooms/" "member_rooms/" "invites_mailer/" "activities/" "integrations/" "bookings/" "credit_notes/" "payment_methods/" "shared/" "members/" "users/" "./" "plans/" "locations/" "member_bookings/" "invoices/")
 
  ("/home/vhodges/work/src/dovetail/dovetailv2/config/environments/" (22516 17627 774988 307000) "../" "development.rb" "production.rb" "./" "test.rb")
 
  ("/home/vhodges/work/src/dovetail/dovetailv2/config/unicorn/" (22245 29441 158520 726000) "../" "production.rb" "./")
 
- ("/home/vhodges/work/src/dovetail/dovetailv2/" (22516 16940 35006 966000) "README_VAGRANT.md" "../" "promo.rb" "Gemfile.lock" "public/" "LICENSE" "Rakefile" "Capfile" "config.ru" "scheduled_tasks.rb" "ssl/" "db/" "app/" "test/" "20150908033634_add_que.rb" "lib/" ".gitignore" "README.md" "form.html" "mailcatcher.sh" "Vagrantfile" "tmp/" "Gemfile" ".git/" "CONTRIBUTING.md" "bootswatch-dovetail.less" "config/" "update.sh" "./" "Procfile" "setup.sh" "log/" "vendor/" "designlibrary/" "bin/" "tst.txt" "mailcatcher.conf" ".ruby-version")
-
- ("/home/vhodges/work/src/dovetail/dovetailv2/config/" (22516 16437 935020 556000) "../" "unicorn/" "locales/" "boot.rb" "database-sample.yml" "routes.rb" "deploy/" "unicorn.rb" "deploy.rb" "application-sample.yml" "environment.rb" "database.yml-vince" "application.rb" "./" "initializers/" "application.yml" "database.yml" "secrets.yml" "environments/")
-
- ("/home/vhodges/dotfiles/emacs/.emacs.d/" (22506 46600 205297 982000) "../" "elpa/" "ido.last" "ac-dict/" "lisp/" "el-get/" "bookmarks" "./" "ac-comphist.dat" "init.el")
-
- ("/home/vhodges/.emacs.d/" (22506 46600 195297 983000) "../" "elpa/" "ido.last" "ac-dict/" "lisp/" "auto-save-list" "el-get/" ".#ido.last" "bookmarks" "./" "ac-comphist.dat" "init.el")
-
- ("/home/vhodges/work/src/dovetail/dovetailv2/db/" (22238 61057 710088 182000) "../" "migrate/" "seeds.rb" "schema.rb" "./")
-
- ("/home/vhodges/work/src/dovetail/dovetailv2/app/models/" (22489 33943 147717 682000) "../" "concerns/" "mailchimp_integration.rb" "member.rb" "space.rb" "invoicing_tax_rate.rb" "user_space.rb" "payment_method.rb" "invoicing_ledger_item.rb" "meetingroom.rb" ".keep" "resource.rb" "location.rb" "plan.rb" "stripe_integration.rb" "member_credit_note.rb" "integration.rb" "payment.rb" "member_identity.rb" "booking.rb" "member_payment.rb" "credit_note.rb" "invoice.rb" "./" "member_invoice.rb" "plan_resource.rb" "invite.rb" "user.rb" "admin_user.rb" "invoicing_line_item.rb")
-
- ("/home/vhodges/work/src/dovetail/dovetailv2/app/views/members/" (22238 61057 703421 515000) "edit.html.erb" "../" "show.html.erb" "new.html.erb" "_invoice.html.haml" "show.json.jbuilder" "_payment.html.haml" "_form.html.haml" "index.html.erb" "index.json.jbuilder" "./" "_credit.html.haml")
-
- ("/home/vhodges/work/src/dovetail/dovetailv2/app/helpers/" (22238 61057 693421 516000) "meetingrooms_helper.rb" "../" "payment_methods_helper.rb" "resources_helper.rb" "dummy_helper.rb" "bookings_helper.rb" "application_helper.rb" "locations_helper.rb" "plans_helper.rb" "./" "spaces_helper.rb" "members_helper.rb")
-
  ("/home/vhodges/work/src/dovetail/dovetailv2/app/views/layouts/" (22238 61755 216769 953000) "../" "devise.html.haml" "./" "portal.html.haml" "application.html.haml")
-
- ("/home/vhodges/work/src/dovetail/dovetailv2/app/views/shared/" (22238 61542 60098 673000) "_members.html.haml" "../" "_user_account.html.haml" "_settings.html.haml" "_main_nav.html.haml" "_member_nav.html.haml" "_stripe_js.html.erb" "./" "_need_payment_method.html.erb" "_transaction_history.html.erb")
 
  ("/home/vhodges/work/src/8583Auth/src/com/sourdoughlabs/cashbook/" (22149 36905 415749 773000) "../" "Transmitter.java" "./")
 
  ("/home/vhodges/work/src/cashbook-toolkit/cashbook-core/vendor/src/github.com/auroratechnologies/vangoh/" (22146 43030 644245 578000) "../" "LICENSE" "error.go" "util.go" "vangoh.go" "vangoh_test.go" "README.md" "provider.go" "./" "doc.go" "handler.go")
 
- ("/home/vhodges/dotfiles/tmux/" (22180 55089 73529 656000) "../" ".tmux.conf" "./")
-
  ("/home/vhodges/work/src/democitycu/dashboard/" (22183 43451 698516 581000) "../" "index.html" "material.min.css" "material.min.js" "overview.html" "images/" "spending.html" "attributions.txt" "membertrak.logo.png" "./" "styles.css" "mtlehman_footer2.png")
 
- ("/home/vhodges/work/src/cashbook-toolkit/cashbook-core/src/cashbook/" (22313 16512 114759 543000) "../" "category.go" "matcher.go" "txn_group.go" "receiver.go" "report.go" "system_txn_group_classification.go" "classification.go" "usage.go" "main.go" "migratedown.go" "cmd.go" "migrateredo.go" "migratestatus.go" "database.go" "import.go" "txn.go" "./" "persistence.go" "pingreceiver.go" "migrateup.go" "reportingapi.go" "help.go" "system_txn_group.go" "sender.go")
-
  ("/home/vhodges/work/src/dovetail/dovetailv2/config/deploy/" (21977 56142 158235 749000) "../" "production.rb" "./" "staging.rb")
-
- ("/home/vhodges/" (22177 6167 773517 285000) ".bash_profile" "../" "archive/" ".bashrc" ".ssh/" ".jnewsrc~" ".gitconfig" ".irssi/" ".lesshst" ".jnewsrc" "dotfiles/" ".local/" "ez-ipupdate-3.0.11b7/" ".psql_history" ".e/" ".config/" ".emacs.d/" ".tmux.conf" ".bash_history" ".dbus/" "membertrak.logo.png" ".xsession-errors.old" "./" ".rbenv/" ".jnewsrc.time" ".elementary/" "zoneedit.conf" ".bash_logout" "ez-ipupdate-3.0.11b7.tar.gz" ".dmrc" ".xsession-errors" ".cache/" "bin/" ".angband/" "test.pdf" ".crawl/" "Makefile" ".Xauthority" ".ruby-version" "work/" ".gem/")
 
  ("/home/vhodges/work/src/democitycu/" (22170 41160 978335 293000) "../" "index.html" "common-files/" "js/" "less/" "login.html" "mdl/" "img/" "dashboard/" "./" "startup-demo-master/" "flat-ui/" "css/")
 
@@ -160,8 +166,6 @@
  ("/home/vhodges/work/src/cashbook-toolkit/keepsafe/app/" (21977 56084 254901 162000) "mailers/" "../" "controllers/" "models/" "helpers/" "views/" "./" "assets/" "uploaders/")
 
  ("/home/vhodges/work/src/cashbook-toolkit/keepsafe/" (21977 56085 8234 513000) "uploads/" "../" "Gemfile.lock" "public/" "upload" "LICENSE" "Rakefile" "config.ru" "db/" "app/" "test/" "lib/" ".gitignore" "README.md" "tmp/" "Gemfile" ".git/" "config/" "./" "log/" "vendor/" "bin/")
-
- ("/home/vhodges/work/" (21977 61500 375018 406000) "../" "documents/" "src/" "./")
 
  ("/home/vhodges/work/src/8583Auth/src/com/sourdoughlabs/ISO8583/" (22144 31530 51442 870000) "../" "./" "TestConsole.java" "AuthClient.java")
 
