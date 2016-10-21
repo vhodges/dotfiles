@@ -71,7 +71,7 @@ nowplaying() {
 }
 
 lockscreen () {
-    echo "i3lock -c 202020"
+    echo "i3lock -i ~/.wallpapers/unlock.png"
 }
 
 volumecontrol () {

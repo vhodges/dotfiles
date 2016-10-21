@@ -54,7 +54,7 @@
   <separator />
   <item label="Lock Screen">
     <action name="Execute">
-      <command>i3lock -c 202020</command>
+      <command>i3lock -i ~/.wallpapers/unlock.png</command>
       <startupnotify><enabled>yes</enabled></startupnotify>
     </action>
   </item>
