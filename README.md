@@ -1,2 +1,3 @@
 # dotfiles
-My dot files for work. 
+My dot files for a consistent working environment.
+
