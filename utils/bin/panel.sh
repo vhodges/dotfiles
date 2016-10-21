@@ -92,7 +92,7 @@ while :; do
     buf="${buf}%{O15}%{F#51c4d4}%{B#151515}   $(cputemp)c %{F-}%{B-}"
     buf="${buf}%{O15}%{F#51c4d4}%{B#151515}    $(memused)G %{F-}%{B-}"
     buf="${buf}%{O15}%{F#51c4d4}%{B#151515} %{A:$(volumecontrol):} $(volume) %{A} %{F-}%{B-}"
-    buf="${buf}%{O20}%{F#51c4d4}%{B#151515} %{A:$(lockscreen):} Lock %{A} %{F-}%{B-}"
+    buf="${buf}%{O40}%{F#51c4d4}%{B#151515} %{A:$(lockscreen):} Lock %{A} %{F-}%{B-}"
     #buf="${buf} MPD: $(nowplaying)"
      
     buf="${buf}%{O10}%{F#51c4d4}%{B#151515} "
