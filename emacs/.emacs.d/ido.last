@@ -40,6 +40,7 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/vhodges/.config/yabar/"
  "/home/vhodges/"
  "/home/vhodges/work/src/cashbook-toolkit/cashbook-core/src/cashbook/"
  "/home/vhodges/work/src/dovetail/dovetailv2/app/views/member_portal/"
@@ -85,6 +86,7 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "yabar.conf"
  ".xinitrc"
  "main.go"
  "database.go"
@@ -94,11 +96,12 @@
  "member_portal_controller.rb"
  "active_admin.css.scss"
  "portal.html.haml"
- "activities_controller.rb"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/vhodges/.config/yabar/" (22538 5530 820822 931000) "../" "./" "yabar.conf")
+
  ("/home/vhodges/dotfiles/emacs/.emacs.d/" (22535 63789 148134 175000) "../" "elpa/" "ido.last" "ac-dict/" "lisp/" "el-get/" "bookmarks" "./" "ac-comphist.dat" "init.el")
 
  ("/home/vhodges/.emacs.d/" (22535 63789 148134 175000) "../" "elpa/" "ido.last" "ac-dict/" "lisp/" "auto-save-list" "el-get/" ".#ido.last" "bookmarks" "./" "ac-comphist.dat" "init.el")

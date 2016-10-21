@@ -72,4 +72,5 @@ URxvt.letterSpace: -5
 XTerm*faceName: CamingoCode Regular
 XTerm*faceSize: 10
 
-
+emacs.FontBackend: xft
+Emacs.font: CamingoCode-11

@@ -19,14 +19,8 @@
       <command>urxvt</command>
     </action>
   </item>
-  <item label="Xterm">
-    <action name="Execute"><command>xterm</command></action>
-  </item>
-
-  <item label="Surf">
-    <action name="Execute">
-      <command>tabbed "surf -e http://www.google.ca/"</command>
-    </action>
+  <item label="Chrome">
+    <action name="Execute"><command>chromium</command></action>
   </item>
 
   <item label="SpaceFM">
@@ -41,10 +35,29 @@
       <startupnotify><enabled>yes</enabled></startupnotify>
     </action>
   </item>
+  <item label="LX Appearance">
+    <action name="Execute">
+      <command>lxappearance</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+  <item label="Volume Control">
+    <action name="Execute">
+      <command>pavucontrol</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+
   <item label="Reload Openbox Config">
     <action name="Reconfigure" />
   </item>
   <separator />
+  <item label="Lock Screen">
+    <action name="Execute">
+      <command>i3lock -c 202020</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
   <item label="Log Out">
     <action name="Exit">
       <prompt>yes</prompt>
