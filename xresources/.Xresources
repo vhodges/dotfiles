@@ -23,7 +23,7 @@ Rxvt*foreground:   Foreground_Color
 Rxvt*background:   Background_Color
 Rxvt*cursorColor:  Cursor_Color
 
-URxvt.font: xft:Hack Regualr:size=10
+URxvt.font: xft:CamingoCode Regular:size=10
 URxvt.letterSpace: -5
 
 *xterm*color0:      Ansi_0_Color
@@ -69,7 +69,7 @@ URxvt.letterSpace: -5
 ! *xterm*color14: #4eb4fa
 ! *xterm*color15: #d0d0d0
 
-XTerm*faceName: Hack Regular
+XTerm*faceName: CamingoCode Regular
 XTerm*faceSize: 10
 
 
