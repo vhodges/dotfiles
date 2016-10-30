@@ -10,5 +10,6 @@ stow xresources
 stow xinit
 stow openbox
 stow i3
+stow statusbar
 
 

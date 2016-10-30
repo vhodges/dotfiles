@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Arc</name>
+    <name>egtk</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -57,12 +57,12 @@
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
-      <name>sans</name>
-      <size>8</size>
+      <name>Sans</name>
+      <size>10</size>
       <!-- font size in points -->
-      <weight>bold</weight>
+      <weight>Bold</weight>
       <!-- 'bold' or 'normal' -->
-      <slant>normal</slant>
+      <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveWindow">
@@ -125,8 +125,9 @@
     <names>
       <name> Internet</name>
       <name> Dev</name>
-      <name>  Comms</name>
+      <name> Comms</name>
       <name> Scratch</name>
+      <name>Foo Bar</name>
     </names>
     <popupTime>875</popupTime>
     <!-- The number of milliseconds to show the popup for when switching
@@ -179,13 +180,13 @@
   <keyboard>
     <chainQuitKey>C-g</chainQuitKey>
     <!-- Keybindings for desktop switching -->
-    <keybind key="C-A-Left">
+    <keybind key="C-Left">
       <action name="GoToDesktop">
         <to>left</to>
         <wrap>no</wrap>
       </action>
     </keybind>
-    <keybind key="C-A-Right">
+    <keybind key="C-Right">
       <action name="GoToDesktop">
         <to>right</to>
         <wrap>no</wrap>
@@ -203,7 +204,7 @@
         <wrap>no</wrap>
       </action>
     </keybind>
-    <keybind key="S-A-Left">
+    <keybind key="C-A-Left">
       <action name="SendToDesktop">
         <to>left</to>
         <wrap>no</wrap>
@@ -398,7 +399,7 @@
         <action name="Move"/>
       </mousebind>
       <mousebind button="Left" action="DoubleClick">
-        <action xmlns="http://openbox.org/3.4/rc" name="ToggleMaximize"/>
+        <action name="ToggleShade"/>
       </mousebind>
       <mousebind button="Up" action="Click">
         <action name="if">

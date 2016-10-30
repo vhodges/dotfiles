@@ -1,0 +1,10 @@
+conky.config = {
+    background = false,
+    out_to_console = true,
+    out_to_x = false,
+    update_interval = 1.0,
+    use_spacer = 'none',
+}
+
+conky.text = [[
+%{B-}%{r}%{F\#51c4d4}%{B\#181835} Root: ${fs_used_perc /}% %{O10}Home: ${fs_used_perc /home}% %{O65}  $cpu% %{O10} ${acpitemp}°C %{O10}  $mem %{O45} %{A:pavucontrol &:} ${exec amixer get Master | sed -n 'N;s/^.*\[\([0-9]\+%\).*$/\1/p'} %{A}]] 

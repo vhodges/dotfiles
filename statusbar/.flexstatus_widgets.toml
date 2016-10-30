@@ -1,0 +1,30 @@
+# Widgets to place on a bar (lemonbar in my case)
+
+# Display window manager desktop information
+[[widget]]       
+Kind = "Desktop"
+Template = "%{l}%{O5}%{F#51c4d4}%{B#181835}{{ .Title }} "
+
+# 'Tail' the output of conky
+[[widget]]
+Kind = "StreamCommand"
+Template = "%{r}{{ .Value }}"
+Exec = "conky -f ~/.conkyrc"
+
+# Display Data and/or time (updates date time every Sleep milli seconds)
+[[widget]]
+kind = "Clock"
+DateFormat = "Mon 2 Jan, 15:04"
+Sleep = 500
+Template= "%{O25}  {{.FormattedDateTime}}"
+
+# My Lock screen button
+[[widget]]
+kind = "Text"
+Value = "%{O25}%{A:$(lockscreen):} Lock %{A}"
+
+# A little spacer on the end
+[[widget]]
+kind = "Text"
+Value = "%{O15}"
+
